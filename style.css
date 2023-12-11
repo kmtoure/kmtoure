@@ -1,0 +1,394 @@
+ :root{
+            --color1: rgba(180, 142, 4, 0.863);
+            --color2:#979797;
+            --color3:#f4f4f4;
+
+        }
+        body{
+            margin:0;
+            font-family:Arial;
+    
+        }
+        /* PARTIE BACKGROUND COVER */
+        div.coverback{
+            height:365px;
+            background:url(image/cover_overlay.png) no-repeat center/100% 100%,  url(image/cover.jpg) no-repeat center/cover;
+           position:relative;
+        }
+        /* LA PARTIE PROFIL SUR COVER */
+        div.coverprofile{
+            display:block; 
+        }
+        div.coverprofile img{
+            margin-top:40px;
+            height:100px;
+            position:relative;
+            left: 50%;
+            margin-left: -50px;
+        }
+    /* LA PARTIE NOM ET DESCRIPTION */
+        h1,p{
+            text-align: center;
+        }
+        h1{
+            color:white;
+        }
+        .cover_p{
+            color:lightgrey;
+        }
+        /* LA PARTIE CONTACT MAIL ET PHONE */
+        div.contact{
+            position:absolute;
+            top:10px;
+            margin-top: 30px;
+            margin-left:10px;
+            border-left: 5px solid var(--color1);
+
+        }
+        div.contact p{
+            margin-left:8px;
+            margin-bottom:0;
+        }
+        div.contact p.mails{
+            margin-top:0;
+        }
+        div.contact a{
+            text-decoration: none;
+            color:white;
+        }
+        /* BOUTON ME CONTACTER */
+        div.mecontacter p{
+            margin-top: 50px;
+        }
+        div.mecontacter a{
+            background-color: #000000C0;
+            text-decoration:none;
+            border: 2px solid var(--color1);
+            padding:8px 12px;
+            font-size: 14px;
+            color:lightgreen;
+
+        }
+        div.mecontacter a:hover{
+            border: 2px solid green;
+            color: white;
+            margin-top:-10px;
+        }
+        /*PARTIE SEPARATEUR ET DESCRIPTION*/
+        div.bckgd_sepa{
+           
+            background:url(image/triangle2white.svg)no-repeat center bottom/100%;
+            background-color:#f4f4f4;
+            height:200px;
+            padding-top:10px;
+        }
+        div.bckgd_sepa:hover{
+            border:2px solid blue;
+        }
+        div.separateur{
+            height:3px;
+            width:200px;
+            background-color:#979797;
+            margin-left:auto;
+            margin-right: auto;
+         
+        }
+        div.display_mobile{
+            display:none;
+            margin-bottom:20px;
+            margin-top:25px;
+            
+          }
+        .info{
+            text-align: center;
+            line-height:2;
+            color:#656565;
+            font-size:18px;
+            
+        }
+        /*TRIANGLE GREY ET BLANC ET LA SECTION BLANC 1*/
+       
+
+        .section_blanc1{
+            overflow:auto;
+        }
+        .section_blanc1 h2{
+            text-align: center;
+        }
+        .section_blanc1 img{
+            width:40%;
+            height:15%;
+        }
+        .section_blanc1 p{
+            width:58%;
+            float:right;
+            color:black;
+            padding-left:10px;
+            box-sizing: border-box;
+            border-left: 5px solid var(--color1);
+            
+            margin-top:0;
+        }
+
+       /* LA PARTIE PORTFOLIO */
+
+        .section_gris2{
+            background-color: var(--color3);
+            
+        }
+        .section_gris2 h2{
+            text-align: center;
+            margin-top:-4px;
+        }
+        div.table_portfolio{
+            margin:0 20px;
+            padding-top:15px;
+        }
+        div.table_portfolio table{
+            width:45%;
+        }
+        .table1_portfolio{
+            display:inline-block;
+            margin-left:15px;
+        }
+        .table2_portfolio{
+            float:right;
+            margin-right:15px; 
+        }
+        div.table_portfolio:hover{
+            border:2px solid blue;
+        }
+        .bar_vertical_portfolio_frame{
+            border-left:4px solid var(--color1);
+            padding-left: 8px;
+            height:50px;
+            display:inline-block;
+           
+        }
+
+        /*SECTION BLANCHE FIN*/
+        div.frame{
+           
+            margin:50px 50px 30px 50px;
+            padding:20px 30px;
+            background-color: white;
+            box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+            
+        }
+        div.frame:hover{
+            border:2px solid blue;
+        }
+        div.frame p.frame_title{
+            font-size:28px;
+            margin-top:5px;
+            margin-bottom:20px;
+            text-align:center;
+        }div.frame img{
+            width:100px;
+        }
+        /* LA FEUILLE PORTFOLIO RESTAURANT */
+        /* LA PARTIE HEADER ET ME CONTACTER*/
+        div.portfolio_header{
+            height:90px;
+            background:url(image/header.jpg)no-repeat center/cover;
+            position:relative;
+        }
+        div.bar_vertical_portfolio_restau_header{
+            margin-top:10px;
+            position:absolute;
+            border-left:4px solid var(--color1);
+            top:10px;
+        }
+        p.portfolio_myname{
+            color:white;
+            font-size:26px;
+            font-weight:bold;
+            margin:0 0 0 10px; 
+        }
+        p.portfolio_myname:hover{
+            border-bottom:2px solid green;
+        }
+    
+       div.portfolio_mecontacter{
+            display:inline-block;
+            margin-left:80%;
+            margin-top:30px;
+           
+        }
+        div.portfolio_mecontacter a{
+            background-color: #000000C0;
+            text-decoration:none;
+            border: 2px solid var(--color1);
+            padding:8px 12px;
+            font-size: 14px;
+            color:lightgreen;
+
+        }
+        div.portfolio_mecontacter a:hover{
+            border: 2px solid green;
+            color: white;
+            margin-top:-10px;
+        }
+        /* LA PARTIE SECTION GRISE */
+        div.bckgd_sepa{
+            position:relative;
+        }
+        .portfolio_h1{
+            font-size:46px;
+            color:black;
+            margin-bottom:0;
+        }
+      
+        .portfolio_h2{
+            font-size:26px;
+            font-weight:normal;
+            text-align:center;
+            margin-top:0;
+        }
+      
+        div.bckgd_sepa a.portfolio_back{
+            position:absolute;
+            top:10px;
+            margin-left:10px;
+            text-decoration:none;
+            color:var(--color1);
+        }
+        div.bckgd_sepa a.portfolio_back:hover{
+            border-bottom:2px solid blue;
+        }
+        /* LA PARTIE SECTION BLANCHE */
+        div.centrer{
+            margin:30px 50px;
+        }
+        div.portfolio{
+            text-align: center;
+            margin-top:30px;
+        }
+        div.portfolio img{
+           width:70%;
+           max-width:475px;
+        }
+        /*IFRAME*/
+        iframe{
+            width:100%;
+            border:none;
+            height:350px;
+        }
+        /* LA PARTIE MOBILE*/
+        @media only screen and (max-width: 767px){
+              /* PARTIE BACKGROUND COVER */
+            div.coverback{
+                height:335px;
+            }
+            
+            div.mecontacter p{
+                margin-top: 30px;
+            }
+            div.contact{
+                margin-top: 10px;
+            }
+            div.contact p:last-child{
+                margin-left:-55px;
+            }
+            div.coverprofile img{
+                margin-top:60px;
+            }
+            h1{
+                font-size:27px;
+                margin-bottom:0;
+            }
+            .cover_p{
+                margin-bottom:0;
+            }
+            /* PARTIE SECTION GRISE 1 INFO */
+            div.bckgd_sepa{
+                height:150px;
+            }
+            /* PARTIE EN SAVOIR PLUS*/
+            .section_blanc1{
+                padding:0 10px;
+
+               
+            }
+            .section_blanc1 img{
+                width:100%;
+               
+            }
+            .section_blanc1 p{
+                margin-top:10px;
+                width:100%;
+            }
+            /* PARTIE PORTFOLIO*/
+            .section_gris2{
+                margin-top:-5px;
+            }
+            div.table_portfolio table{
+                width:100%;
+            }
+            div.table_portfolio p.centrer{
+                margin-left:-50px;
+            }
+            .table1_portfolio{
+                margin-bottom:10px;
+                margin-left:0;
+            }
+            .table2_portfolio{
+                margin-left:15px;
+                margin-right:0;
+            }
+            div.table_portfolio:hover{
+                border:none;
+            }
+          /* PARTIE PARLONS DE VOTRE PROJET */
+          div.display_mobile{
+            display:block;
+          }
+       
+          div.frame img{
+            width:70px;
+          }
+          div.frame{
+            margin:0px 0px;
+            padding:0px 20px;
+            box-shadow:none;
+        }
+        div.frame:hover{
+            border:none;
+        }
+
+           /* LA FEUILLE PORTFOLIO RESTAURANT */
+        /* LA PARTIE HEADER ET ME CONTACTER*/
+        div.portfolio_header{
+            height:75px;
+           
+        }
+        p.portfolio_myname{
+            font-size:16px;
+          
+        }
+        
+       div.portfolio_mecontacter{
+        margin-left:60%;
+        margin-top:23px;
+       
+    }
+    div.portfolio_mecontacter a{
+      
+        border: 2px solid var(--color1);
+        padding:7px 12px;
+        font-size: 12px;
+        color:lightgreen;
+
+    }
+    .portfolio_h1{
+        font-size:40px;
+    
+    }
+  
+    .portfolio_h2{
+        font-size:22px;
+    }
+    div.portfolio img{
+        width:90%;
+     }
+    }
